@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 1.0 - Typography */
+header  p {
+	font-size: 200px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 100px;
+	
+}
+
+#r-2 > div > p {
+	width: 200px;
+	margin-top: 250px;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#r-5 div:first-child h2, #r-5 div:last-child h2, #r-6 div:first-child h2, #r-6 div:last-child h2, #vis h2, #r-2 > div > p, header  p  {
+	text-align: center;
+}
+
+#r-2 p b, header  p, form a, span {
+	text-transform: uppercase;
+}
+
+
+
+
+/* 3.1 - Site Structure */
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.bright-blue {
+	background-color: #09bfd8;
+	padding: 150px 0;
+	
+	
+}
+
+.row {
+	overflow: auto;
+}
+
+
+
+
+
+/* 5.0 - Utility */
+
+li {
+	
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#r-1 img { 
+	margin-top: 20px;
+}
+
+
+
+#r-1 > div {
+	
+	width: 497px;
+	color:  #e90bf4;
+}
+
+#r-1 h1 {
+	margin-top: 0;
+}
+
+#r-2 {
+	margin: 250px 0;
+}
+
+span {
+	color: #09bfd8;
+	
+}
+
+
+#r-1 li a:hover, header  p, form a {
+	color: #fff;
+	
+}
+
+#r-3 div {
+	width: 333px;
+	margin-top: 100px;
+	
+}
+
+#r-3 div:nth-child(2) {
+	margin-left: 90px;
+}
+
+
+
+#r-3 {
+	height: 936px;
+}
+
+#r-4 ul {
+	margin-left: 480px;
+}
+
+#r-4 ul {
+		list-style: none; 
+	}
+	
+#-r ul span {
+		display: none;
+	}
+	
+#r-4 ul a, ul li, #r-4 ul, li {
+		display: inline-block; 
+	}
+	
+#r-4 ul a {
+		width: 25px;
+		height: 25px;
+	}
+
+#r-4 ul li:first-child a {
+	background: url(../img/facebook-icon.png) no-repeat 0 0;
+}
+
+#r-4 ul li:nth-child(2) a {
+	background: url(../img/pintrest-icon.png) no-repeat 0 0;
+}
+
+#r-4 ul li:last-child a {
+	background: url(../img/instagram-icon.png)no-repeat 0 0;
+}
+
+#r-4 ul li a:hover {
+		background-position: 0 -25px;
+	}
+
+label, form a {
+	display: block;
+}
+
+form div {
+	margin-top: 100px;
+}
+
+form div:first-child input, form div:nth-child(2) input {
+	width: 905px;
+	height: 50px;
+}
+
+form div:nth-child(3) input {
+	width: 905px;
+	height: 240px;
+}
+
+form a {
+	
+	margin: 10px 260px 200px 0;
+	padding: 10px 20px;
+	background-color: #09bfd8;
+}
+
+form a:hover {
+	background-color: #e90bf4;
+	background-position: 0 -25px;
+}
+
+#r-5 div:first-child, #r-5 div:last-child, #r-6 div:first-child, #r-6 div:last-child  {
+	width: 437px;
+	
+}
+
+#r-5 div:first-child h2 a:hover, #r-5 div:last-child h2 a:hover, #r-6 div:first-child h2 a:hover, #r-6 div:last-child h2 a:hover, #r-10 h2 a:hover {
+	color: #E90BF4;
+}
+
+#r-5  {
+	margin-top: 100px;
+}
+
+#p {
+	width: 857px;
+	margin: 100px 0 100px 150px;
+	
+}
+
+#r-11 div:first-child, #r-11 div:last-child, #r-12 div:first-child, #r-12 div:last-child {
+	width: 437px;
+}
+
+#r-12 div:first-child, #r-12 div:last-child {
+	margin: 70px 0 300px 0;
+	
+} 
+
+#vis {
+	margin: 0 0 100px 350px;
+	
+}
+
+
+/*4.0 float*/
+#r-1 img, #r-2 > img, #r-3 div, #r-5 div:first-child, #r-6 div:first-child, #r-11 div:first-child, #r-12 div:first-child  {
+	float: left;
+}
+
+#r-11 div:last-child, #r-12 div:last-child, #r-6 div:last-child, #r-5 div:last-child , form a, #r-3 div:last-child, #r-2 > div > p, #r-1 > div  {
+	float: right;
+}
