@@ -144,8 +144,21 @@ label, form a {
 	display: block;
 }
 
-form div {
-	margin-top: 100px;
+form  {
+	margin: 0 auto;
+	width: 905px;
+	padding-top: 50px;
+}
+
+input {
+	display: block;
+	width: 905px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+#message {
+	height: 240px;
 }
 
 form div:first-child input, form div:nth-child(2) input {
@@ -159,10 +172,10 @@ form div:nth-child(3) input {
 }
 
 form a {
-	
-	margin: 10px 260px 200px 0;
+	float: right;
 	padding: 10px 20px;
 	background-color: #09bfd8;
+	margin-bottom: 100px;
 }
 
 form a:hover {
